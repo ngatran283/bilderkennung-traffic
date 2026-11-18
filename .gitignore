@@ -17,10 +17,7 @@ env/
 *.ipynb_checkpoints
 
 # Data (large files)
-data/Train/
-data/Test/
-data/Meta/
-*.csv
+data/
 
 # Override global gitignore — track src/data/
 !src/data/
