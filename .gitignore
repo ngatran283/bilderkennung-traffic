@@ -16,13 +16,6 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data (large files)
-data/
-
-# Override global gitignore — track src/data/
-!src/data/
-!src/data/**
-
 # Models
 models/
 *.h5
@@ -37,3 +30,4 @@ Thumbs.db
 # IDE
 .idea/
 .vscode/
+/data/processed/
